@@ -2,7 +2,7 @@ body {
   font-family: 'PTSans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  color: #000;
+  color: #000000;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
   font-size: 36px;
   line-height: 30px;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
 }
 
 h2 {
@@ -19,4 +19,290 @@ h2 {
   line-height: 30px;
   font-weight: bold;
   color: #32425c;
+}
+
+ul {
+  margin: 0;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  padding-bottom: 60px;
+}
+
+.index-logo {
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.search-form {
+  float: left;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.bookmarks {
+  float: left;
+  width: 140px;
+  margin-right: 10px;
+}
+
+.cart {
+  float: left;
+  width: 140px;
+  margin-right: 10px;
+}
+
+.order {
+  float: right;
+  width: 150px;
+}
+
+.second-block {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.header-description {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.header-contacts {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.user-block {
+  float: right;
+  width: 300px;
+}
+
+.features {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.features-item {
+  float: left;
+  width: 260px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.features-item:nth-child(n+3) {
+  margin-right: 0;
+}
+
+.slide-block {
+  float: left;
+  width: 620px;
+  margin-right: 20px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide-block .active {
+  display: block;
+}
+
+.famous {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+.item-container {
+  padding: 20px 0;
+}
+
+.item {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.item-container .item:last-child {
+  margin-right: 0;
+}
+
+.brand-container {
+  padding-top: 20px;
+  padding-bottom: 65px;
+}
+
+.brand {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.brand:nth-child(4n) {
+  margin-right: 0;
+}
+
+.service-block {
+  padding-top: 60px;
+}
+
+.service-navigation {
+  float: left;
+  width: 240px;
+}
+
+.service-description {
+  float: right;
+  width: 620px;
+  min-height: 280px;
+}
+
+.service-about {
+  display: none;
+}
+
+.service-description .active {
+  display: block;
+}
+
+.contacts {
+  padding-top: 75px;
+  padding-bottom: 85px;
+}
+
+.contacts-content {
+  float: left;
+  width: 540px;
+}
+
+.contacts-map {
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+  padding-bottom: 30px;
+}
+
+.footer-navigation-top {
+  margin-bottom: 30px;
+}
+
+.footer-main-nav {
+  float: right;
+  width: 550px;
+}
+
+.footer-navigation-bottom {
+  margin-bottom: 50px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 330px;
+}
+
+.footer-second-nav {
+  float: right;
+  width: 530px;
+}
+
+.footer-links {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.footer-copyright {
+  float: left;
+  width: 240px;
+}
+
+.footer-social {
+  float: left;
+  width: 160px;
+  margin-left: 140px;
+}
+
+.footer-email {
+  float: right;
+  width: 300px;
+}
+
+.internet-contact {
+  float: left;
+  width: 140px;
+}
+
+.email {
+  margin-right: 20px;
+}
+
+/*=========================CATALOG===========================*/
+
+.catalog-title {
+  color: #32425c;
+}
+
+.left-column {
+  float: left;
+  width: 220px;
+}
+
+.column-title {
+  padding: 10px 15px;
+}
+
+.category-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.range-controls {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 75px;
+}
+
+.right-column {
+  float: right;
+  width: 700px;
+  padding-bottom: 60px;
+}
+
+.catalog-items .item {
+  margin-bottom: 20px;
+}
+
+.catalog-items .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.about-item {
+  clear: both;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }

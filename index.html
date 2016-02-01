@@ -8,15 +8,16 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="top-block">
+        <div class="top-block clearfix">
           <div class="index-logo">
             Техномарт
           </div>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-            <input type="search" name="name" value="" id="search-field">
             <label for="search-field">
               Поиск:
             </label>
+            <input type="search" name="name" value="" id="search-field">
+
           </form>
           <div class="bookmarks">
             <a href="#">Закладки: 0</a>
@@ -28,10 +29,10 @@
             <a href="#">Оформить заказ</a>
           </div>
         </div>
-        <div class="second-block">
+        <div class="second-block clearfix">
           <div class="header-description">
-            Интернет-магазин
-            строительных материалов
+            Интернет-магазин<br>
+            строительных материалов<br>
             и инструментов для ремонта
           </div>
           <div class="header-contacts">
@@ -75,7 +76,7 @@
       </div>
     </header>
     <main class="container">
-      <div class="features">
+      <div class="features clearfix">
         <div class="features-item">
           <div class="flag-new">New</div>
           <b>Материалы</b>
@@ -90,7 +91,7 @@
           <a class="features-btn" href="#">Для стройки</a>
         </div>
         <div class="slide-block">
-          <div class="slide">
+          <div class="slide active">
             <div class="slide-descriptoin">
               <h1>Перфораторы</h1>
               <p>Настоящие мужские игрушки</p>
@@ -102,7 +103,7 @@
               <h1>Дрели</h1>
               <p>Соседям на радость!</p>
             </div>
-            <img src="img/slide-1.jpg" width="620" height="266">
+            <img src="img/slide-2.jpg" width="620" height="266">
           </div>
           <div class="arrows">
             <a href="#">(Предыдущий)</a>
@@ -134,7 +135,7 @@
           <h2 class="famous-title">Популярные товары</h2>
           <a class="btn-red" href="#">Все популярные товары</a>
         </div>
-        <div class="catalog-items">
+        <div class="item-container clearfix">
           <article class="item">
             <div class="action">
               <a class="btn buy" href="#">Купить</a>
@@ -212,7 +213,7 @@
           <h2 class="famous-title">Популярные производители</h2>
           <a class="btn-red" href="#">Все производители</a>
         </div>
-        <div class="brand-container">
+        <div class="brand-container clearfix">
           <article class="brand">
             <a href="#"><img src="img/brand-1.jpg" width="126" height="37" alt="Bosh"></a>
           </article>
@@ -247,10 +248,10 @@
             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
           </p>
         </section>
-        <section class="service-content">
+        <section class="service-content clearfix">
           <div class="service-navigation">
             <ul>
-              <li>
+              <li class="active">
                 <a href="#">Доставка</a>
               </li>
               <li>
@@ -262,21 +263,21 @@
             </ul>
           </div>
           <div class="service-description">
-            <div class="service-about delivery">
+            <div class="service-about delivery active">
               <h3 class="service-about-title">Доставка</h3>
               <p>
-                Мы с удовольствием доставим ваш товар прямо
-                к вашему подъезду совершенно бесплатно!
-                Ведь мы неплохо заработаем,
+                Мы с удовольствием доставим ваш товар прямо<br>
+                к вашему подъезду совершенно бесплатно!<br>
+                Ведь мы неплохо заработаем,<br>
                 поднимая его на ваш на этаж!
               </p>
             </div>
             <div class="service-about guarantee">
               <h3 class="service-about-title">Гарантия</h3>
               <p>
-                Если купленный у нас товар поломается или заискрит,
-                а также в случае пожара, спровоцированного его возгаранием,
-                вы всегда можете быть уверены в нашей гарантии. Мы обменяем
+                Если купленный у нас товар поломается или заискрит,<br>
+                а также в случае пожара, спровоцированного его возгаранием,<br>
+                вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
                 сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
               </p>
             </div>
@@ -291,8 +292,8 @@
           </div>
         </section>
       </div>
-      <div class="contacts">
-        <section class="conacts-content">
+      <div class="contacts clearfix">
+        <section class="contacts-content">
           <h2 class="service-title">Компания «Техномарт»</h2>
           <p>
             Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров
@@ -300,7 +301,7 @@
             сэкномить на гастарбайтерах.
           </p>
           <p>
-            Мы можем доставить ваш товар в самые отдаленные точки России!
+            Мы можем доставить ваш товар в самые отдаленные точки России!<br>
             Техномарт работает со многими транспортными компаниями:
           </p>
           <ul>
@@ -313,7 +314,7 @@
         <section class="contacts-map">
           <h2 class="service-title">Контакты</h2>
           <p>
-            Вы можете забрать товар сами,
+            Вы можете забрать товар сами,<br>
             заехав в наш офис:
           </p>
           <div class="map">Карта</div>
@@ -324,7 +325,7 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-navigation">
-          <section class="footer-navigation-top">
+          <section class="footer-navigation-top clearfix">
             <div class="index-logo footer-logo">
               Техномарт
             </div>
@@ -348,7 +349,7 @@
               </ul>
             </nav>
           </section>
-          <section class="footer-navigation-bottom">
+          <section class="footer-navigation-bottom clearfix">
             <div class="footer-contacts">
               г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
               +7 (812) 555-05-55
@@ -371,7 +372,7 @@
             </nav>
           </section>
         </div>
-        <div class="footer-links">
+        <div class="footer-links clearfix">
           <section class="footer-copyright">
             &copy; 2010–2016 Компания «Техномарт»
             Все права защищены
@@ -389,7 +390,7 @@
         			</li>
             </ul>
           </section>
-          <section class="footer-email">
+          <section class="footer-email clearfix">
             <div class="internet-contact email">
               <p>Обратная связь:</p>
               <a class="btn" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>

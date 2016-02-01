@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="top-block">
+        <div class="top-block clearfix">
           <div class="index-logo">
             Техномарт
           </div>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-            <input type="search" name="name" value="" id="search-field">
             <label for="search-field">
               Поиск:
             </label>
+            <input type="search" name="name" value="" id="search-field">
           </form>
           <div class="bookmarks">
             <a href="#">Закладки: 0</a>
@@ -28,7 +28,7 @@
             <a href="#">Оформить заказ</a>
           </div>
         </div>
-        <div class="second-block">
+        <div class="second-block clearfix">
           <div class="header-description">
             Интернет-магазин
             строительных материалов
@@ -96,14 +96,14 @@
           Перфораторы
         </li>
       </ul>
-        <h1 class="catalog-title">Перфораторы</h1>
+      <h1 class="catalog-title">Перфораторы</h1>
       <div class="left-column">
         <div class="column-title">
           Фильтр:
         </div>
         <form class="filter" action="https://echo.htmlacademy.ru" method="post">
           <section class="filter-category">
-            <b class="category-title">Цена:</b>
+            <div class="category-title">Цена:</div>
             <div class="range-controls">
               <div class="scale"></div>
               <div class="toggle min-toggle"></div>
@@ -117,23 +117,41 @@
           </section>
           <section class="filter-category">
             <div class="category-title">Производители:</div>
-            <input type="checkbox" name="brand-1" id="choice-1" checked>
-            <label for="choice-1">Bosh</label>
-            <input type="checkbox" name="brand-2" id="choice-2">
-            <label for="choice-2">Интерскол</label>
-            <input type="checkbox" name="brand-3" id="choice-3" checked>
-            <label for="choice-3">Makita</label>
-            <input type="checkbox" name="brand-4" id="choice-4">
-            <label for="choice-4">Dewalt</label>
-            <input type="checkbox" name="brand-5" id="choice-5">
-            <label for="choice-5">Hitachi</label>
+            <ul class="category-list">
+              <li>
+                <input type="checkbox" name="brand-1" id="choice-1" checked>
+                <label for="choice-1">Bosh</label>
+              </li>
+              <li>
+                <input type="checkbox" name="brand-2" id="choice-2">
+                <label for="choice-2">Интерскол</label>
+              </li>
+              <li>
+                <input type="checkbox" name="brand-3" id="choice-3" checked>
+                <label for="choice-3">Makita</label>
+              </li>
+              <li>
+                <input type="checkbox" name="brand-4" id="choice-4">
+                <label for="choice-4">Dewalt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="brand-5" id="choice-5">
+                <label for="choice-5">Hitachi</label>
+              </li>
+            </ul>
           </section>
           <section class="filter-category">
             <div class="category-title">Питание:</div>
-            <input type="radio" name="power-type" value="type-1" id="radio-1" checked>
-            <label for="radio-1">Аккумуляторные</label>
-            <input type="radio" name="power-type" value="type-2" id="radio-2">
-            <label for="radio-2">Сетевые</label>
+            <ul class="category-list">
+              <li>
+                <input type="radio" name="power-type" value="type-1" id="radio-1" checked>
+                <label for="radio-1">Аккумуляторные</label>
+              </li>
+              <li>
+                <input type="radio" name="power-type" value="type-2" id="radio-2">
+                <label for="radio-2">Сетевые</label>
+              </li>
+            </ul>
             <button class="button">Показать</button>
           </section>
         </form>
@@ -161,7 +179,7 @@
             </li>
           </ul>
         </div>
-        <div class="catalog-items">
+        <div class="catalog-items clearfix">
           <article class="item">
             <div class="action">
               <a class="btn buy" href="#">Купить</a>
@@ -348,7 +366,7 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-navigation">
-          <section class="footer-navigation-top">
+          <section class="footer-navigation-top clearfix">
             <div class="index-logo footer-logo">
               Техномарт
             </div>
@@ -372,7 +390,7 @@
               </ul>
             </nav>
           </section>
-          <section class="footer-navigation-bottom">
+          <section class="footer-navigation-bottom clearfix">
             <div class="footer-contacts">
               г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
               +7 (812) 555-05-55
@@ -395,7 +413,7 @@
             </nav>
           </section>
         </div>
-        <div class="footer-links">
+        <div class="footer-links clearfix">
           <section class="footer-copyright">
             &copy; 2010–2016 Компания «Техномарт»
             Все права защищены
@@ -413,7 +431,7 @@
         			</li>
             </ul>
           </section>
-          <section class="footer-email">
+          <section class="footer-email clearfix">
             <div class="internet-contact email">
               <p>Обратная связь:</p>
               <a class="btn" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
