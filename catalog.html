@@ -102,8 +102,8 @@
           Фильтр:
         </div>
         <form class="filter" action="https://echo.htmlacademy.ru" method="post">
-          <section class="filter-category">
-            <div class="category-title">Цена:</div>
+          <fieldset class="filter-category">
+            <legend class="category-title">Цена:</legend>
             <div class="range-controls">
               <div class="scale"></div>
               <div class="toggle min-toggle"></div>
@@ -114,46 +114,42 @@
               -
               <input class="max-price" type="text" value="30000">
             </div>
-          </section>
-          <section class="filter-category">
-            <div class="category-title">Производители:</div>
-            <ul class="category-list">
-              <li>
-                <input type="checkbox" name="brand-1" id="choice-1" checked>
-                <label for="choice-1">Bosh</label>
-              </li>
-              <li>
-                <input type="checkbox" name="brand-2" id="choice-2">
-                <label for="choice-2">Интерскол</label>
-              </li>
-              <li>
-                <input type="checkbox" name="brand-3" id="choice-3" checked>
-                <label for="choice-3">Makita</label>
-              </li>
-              <li>
-                <input type="checkbox" name="brand-4" id="choice-4">
-                <label for="choice-4">Dewalt</label>
-              </li>
-              <li>
-                <input type="checkbox" name="brand-5" id="choice-5">
-                <label for="choice-5">Hitachi</label>
-              </li>
-            </ul>
-          </section>
-          <section class="filter-category">
-            <div class="category-title">Питание:</div>
-            <ul class="category-list">
-              <li>
-                <input type="radio" name="power-type" value="type-1" id="radio-1" checked>
-                <label for="radio-1">Аккумуляторные</label>
-              </li>
-              <li>
-                <input type="radio" name="power-type" value="type-2" id="radio-2">
-                <label for="radio-2">Сетевые</label>
-              </li>
-            </ul>
+          </fieldset>
+          <fieldset class="filter-category">
+            <legend class="category-title">Производители:</legend>
+            <div class="category-item">
+              <input type="checkbox" name="brand-1" id="choice-1" checked>
+              <label for="choice-1">Bosh</label>
+            </div>
+            <div class="category-item">
+              <input type="checkbox" name="brand-2" id="choice-2">
+              <label for="choice-2">Интерскол</label>
+            </div>
+            <div class="category-item">
+              <input type="checkbox" name="brand-3" id="choice-3" checked>
+              <label for="choice-3">Makita</label>
+            </div>
+            <div class="category-item">
+              <input type="checkbox" name="brand-4" id="choice-4">
+              <label for="choice-4">Dewalt</label>
+            </div>
+            <div class="category-item">
+              <input type="checkbox" name="brand-5" id="choice-5">
+              <label for="choice-5">Hitachi</label>
+            </div>
+          </fieldset>
+          <fieldset class="filter-category">
+            <legend class="category-title">Питание:</legend>
+            <div class="category-item">
+              <input type="radio" name="power-type" value="type-1" id="radio-1" checked>
+              <label for="radio-1">Аккумуляторные</label>
+            </div>
+            <div class="category-item">
+              <input type="radio" name="power-type" value="type-2" id="radio-2">
+              <label for="radio-2">Сетевые</label>
+            </div>
             <button class="button">Показать</button>
-          </section>
+          </fieldset>
         </form>
       </div>
       <div class="right-column">
