@@ -92,7 +92,7 @@ h2 {
 }
 
 .main-header {
-  padding-bottom: 60px;
+  padding-bottom: 55px;
   background-color: #f1f5f7;
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 17px;
@@ -277,6 +277,7 @@ h2 {
 }
 
 .header-contacts .address {
+  margin-top: 5px;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
@@ -1199,7 +1200,8 @@ h2 {
 .user-menu li {
   position: relative;
   display: inline-block;
-  padding: 10px 15px;
+  margin-top: 10px;
+  padding: 0 15px;
 }
 
 .user-menu li:last-child::before {
