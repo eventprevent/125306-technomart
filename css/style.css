@@ -355,6 +355,14 @@ h2 {
   color: #ffffff;
 }
 
+.main-navigation li:first-child a {
+  padding-left: 55px;
+}
+
+.main-navigation li:last-child a {
+  padding-right: 55px;
+}
+
 .main-header .main-navigation a:hover {
   background-color: #293449;
 }
@@ -1040,6 +1048,11 @@ h2 {
   box-shadow: none;
 }
 
+.footer-main-nav li:first-child a,
+.footer-second-nav li:first-child a {
+  padding-left: 10px;
+}
+
 .footer-main-nav a:hover,
 .footer-second-nav a:hover {
   text-decoration: underline;
@@ -1114,12 +1127,12 @@ h2 {
 
 .footer-email {
   float: right;
-  width: 300px;
+  max-width: 300px;
 }
 
 .internet-contact {
   float: left;
-  width: 140px;
+  max-width: 140px;
 }
 
 .internet-contact p {
