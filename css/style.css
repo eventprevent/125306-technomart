@@ -276,7 +276,7 @@ a.index-logo:active {
 }
 
 .header-contacts .icon-phone {
-  margin-right: 40px;
+  margin-right: 28px;
   margin-left: 10px;
   font-size: 22px;
   opacity: 0.3;
@@ -963,16 +963,19 @@ a.index-logo:active {
 
 .delivery {
   background: url("../img/delivery.png") no-repeat;
-  background-position: right bottom;
 }
 
 .guarantee {
   background: url("../img/guarantee.png") no-repeat;
-  background-position: right bottom;
 }
 
 .credit {
   background: url("../img/credit.png") no-repeat;
+}
+
+.delivery,
+.guarantee,
+.credit {
   background-position: right bottom;
 }
 
@@ -1254,6 +1257,7 @@ a.not-empty:hover {
 .user-menu {
   padding: 0;
   margin: 0;
+  margin-left: 12px;
   list-style: none;
 }
 
@@ -1295,6 +1299,8 @@ a.not-empty:hover {
   margin: 0;
   padding: 17px 0;
   list-style: none;
+  font-size: 0;
+  line-height: 0;
 }
 
 .breadcrumbs li {
@@ -1304,7 +1310,7 @@ a.not-empty:hover {
   padding: 0 20px;
   font-family: 'PT Sans', 'Arial', sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 20px;
   text-transform: uppercase;
 }
 
@@ -1321,6 +1327,7 @@ a.not-empty:hover {
 
 .breadcrumbs li:first-child {
   padding-left: 0;
+  padding-right: 12px;
   opacity: 0.3;
   font-size: 16px;
   line-height: 20px;
