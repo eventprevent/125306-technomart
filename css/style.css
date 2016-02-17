@@ -1836,7 +1836,9 @@ input[type="radio"] + label:active::before {
   position: absolute;
   bottom: 0;
   height: 565px;
+  width: 100%;
   z-index: 0;
+  background: #ffffff url('../img/map-bg.jpg') no-repeat right bottom;
 }
 
 .modal-map.show-window {
