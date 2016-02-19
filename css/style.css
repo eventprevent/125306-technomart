@@ -976,6 +976,7 @@ a.index-logo:active {
 .delivery,
 .guarantee,
 .credit {
+  padding-right: 240px;
   background-position: right bottom;
 }
 
@@ -1644,6 +1645,25 @@ input[type="radio"] + label:active::before {
 
 .about-item p {
   margin-top: 30px;
+}
+
+/*=============================================FORM======================================*/
+
+.write-us {
+  width: 620px;
+  background-color: #ffffff;
+}
+
+.write-us-button {
+  padding: 35px 80px;
+  font-size: 0;
+}
+
+.write-us .btn {
+  box-sizing: content-box;
+  width: 100%;
+  border: none;
+  outline: none;
 }
 
 /*=========================================MODAL-WINDOWS=================================*/
