@@ -962,22 +962,21 @@ a.index-logo:active {
 }
 
 .delivery {
+  padding-right: 240px;
   background: url("../img/delivery.png") no-repeat;
+  background-position: right 20px;
 }
 
 .guarantee {
+  padding-right: 240px;
   background: url("../img/guarantee.png") no-repeat;
+  background-position: right 3px;
 }
 
-.credit {
-  background: url("../img/credit.png") no-repeat;
-}
-
-.delivery,
-.guarantee,
 .credit {
   padding-right: 240px;
-  background-position: right bottom;
+  background: url("../img/credit.png") no-repeat;
+  background-position: right top;
 }
 
 .credit .btn {
